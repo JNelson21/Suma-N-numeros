@@ -5,7 +5,7 @@ import fileinput
 suma = 0
 es_entero = True
 
-for line in fileinput.input(files = 'texto.txt'):
+for line in fileinput.input():
     number = float(line.strip()) # convertir el string a un número flotante
 
     suma += number
